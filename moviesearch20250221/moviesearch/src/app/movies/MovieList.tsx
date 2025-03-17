@@ -6,7 +6,6 @@ import Image from "next/image";
 type MovieListProps = {
   movies: Movie[];
 };
-//
 export default function MovieList({ movies }: MovieListProps) {
   return (
     <div className={styles.movielist}>
